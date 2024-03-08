@@ -1,0 +1,89 @@
+@media screen and (min-width:150px) and (max-width:309px) {
+  
+  .log-insta {
+    width: 150px;
+  }
+  
+  .log-insta > img {
+    width: 130px;
+    height: 50px;
+    margin-left: 30px;
+  }
+    .conteiner-banner1 {
+   
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        
+       }
+       
+        .conteiner-banner1 > img {
+            display: none;
+            margin: auto;
+            margin-left: 50px;
+        }
+      
+    
+            input {
+                width: 130px;
+                display: flex;
+                margin-left: 32px;
+            }
+            input[type="submit"] {
+                width: 130px;
+                
+                margin-left: 32px;
+                
+            }
+
+            .span {
+                text-align: center;
+                margin-left: 10px;
+            }
+
+
+                 .cadastrar {
+                    width: 200px;
+                 }
+                    .facebook {
+                      margin-left: 50px;
+                        text-align: center;
+                    }
+
+}
+
+@media screen and (min-width:310px) and (max-width:600px) {
+   
+   .conteiner-banner1 {
+   
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+   }
+   
+    .conteiner-banner1 > img {
+        display: none;
+        margin: auto;
+        margin-left: 50px;
+    }
+  
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:900px) {
+
+    .conteiner-banner1 {
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .centeiner-banner > img {
+        display: flex;
+        margin-left: 0;
+    }
+}
+
